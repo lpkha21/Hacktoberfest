@@ -1,7 +1,8 @@
 ﻿# LULU AI — Intelligent Medical Logging Assistant
 
-**LULU AI** is a conversational health companion designed to make patient monitoring seamless, consistent, and intelligent between doctor appointments.  
-It bridges the gap between visits by helping users record, track, and understand their ongoing health changes through daily, personalized conversations.
+**LULU AI** is a conversational health companion designed to make patient monitoring seamless, consistent, and intelligent between doctor appointments.
+Since daily communication between doctors and patients is usually impossible, the medical information accumulated in this interval is partially lost.
+LULU AI bridges the gap between doctor visits by helping users record, track, and understand their ongoing health changes through daily, personalized conversations. 
 
 ---
 

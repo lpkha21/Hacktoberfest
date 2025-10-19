@@ -1,0 +1,23 @@
+import androidx.room.Entity
+import androidx.room.ForeignKey
+import androidx.room.PrimaryKey
+import java.time.LocalDate
+
+@Entity(
+    tableName = "answers",
+    foreignKeys = [
+        ForeignKey(
+            entity = SessionEntity::class,
+            parentColumns = ["sessionId"],
+            childColumns = ["sessionId"],
+            onDelete = ForeignKey.CASCADE
+        )
+    ]
+)
+data class AnswerEntity(
+    @PrimaryKey val id: Long = 0,
+    val question: String,
+    val answer: String,
+    val sessionId: String,
+    val date: LocalDate
+)
